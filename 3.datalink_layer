@@ -1,0 +1,29 @@
+1) What is one of the functions of the data link layer?
+----> It makes sure the appropriate physical protocol is assigned to the data. The data link layer is the second layer in the OSI Model. 
+      The three main functions of the data link layer are to deal with transmission errors, regulate the flow of data, 
+      and provide a well-defined interface to the network layer.
+
+2) FUNCTIONS OF DATA LINK LAYER?
+----> *Framing: Frames are the streams of bits received from the network layer into manageable data units. 
+      *Physical Addressing: The Data Link layer adds a header to the frame in order to define physical address of the sender or receiver of the frame
+                             if the frames are to be distributed to different systems on the network.
+      *Flow Control: A flow control mechanism to avoid a fast transmitter from running a slow receiver by buffering the extra bit is provided by flow control. 
+      *Error Control:Error control is achieved by adding a trailer at the end of the frame. Duplication of frames are also prevented by using this mechanism. Data Link Layers adds mechanism to prevent duplication of frames.
+      *Access Control:Protocols of this layer determine which of the devices has control over the link at any given time, when two or more devices are connected to the same link.
+      
+3) Explain the Services Provided To Network Layer By Data Link Layer?
+-----> *The one of the major service provided is the transferring the data from network layer on the source machine to the network layer on destination machine.
+       * Unacknowledged connectionless service.
+       *Acknowledged connectionless service.
+       *Acknowledged connection oriented service.
+4) Which task is not done by data link layer?
+-----> channel coding.
+
+5) Which sublayer of the data link layer performs data link functions that depend upon the type of medium?
+-----> Media access control sublayer.
+
+6) List the protocol of Data link layer?
+-----> * ethernet
+       * point to point protocol
+       * HDLC (High level Data link control protocol.
+7) 
